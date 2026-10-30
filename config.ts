@@ -11,7 +11,7 @@ import { Config } from './src/types/config';
 // Use an editor with Typescript support to get autocomplete and validity checking!
 export const config: Config = {
   // General
-  name: 'John',
+  name: 'Mr. Jarnigan',
   openInNewTab: true,
   title: 'Bento',
   launchAnimation: true, // animate a button tile opening (only when openInNewTab is true)
@@ -29,7 +29,7 @@ export const config: Config = {
   },
 
   // Theme
-  theme: 'bento',
+  theme: 'sakura',
 
   // Place a background image in ./src/assets/images/ and provide the file name.
   // If running in docker, ensure that you have a bind mount for `./src/assets/images:/src/src/assets/images`
@@ -57,10 +57,10 @@ export const config: Config = {
   autoFocusBar: true,
 
   // Greetings
-  greetingMorning: 'Good morning,',
+  greetingMorning: 'Rise & Shine,',
   greetingAfternoon: 'Good afternoon,',
   greetingEvening: 'Good evening,',
-  greetingNight: 'Sweet dreams,',
+  greetingNight: 'Go to BED,',
 
   // Layout
   layout: 'editorial', // 'editorial', 'bento', 'lists', 'buttons'
@@ -72,8 +72,8 @@ export const config: Config = {
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
   trackLocation: true, // Request location from the browser. If false, or location is denied, use the coordinates below.
-  defaultLatitude: '37.775',
-  defaultLongitude: '-122.419',
+  defaultLatitude: '36.0104',
+  defaultLongitude: '-84.2696',
 
   // Automatic theme switching:
   // "system" - Switches based on OS color preference
